@@ -34,16 +34,5 @@
         android:text="Save to SD card"
         android:id="@+id/btnSDcard"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Save to Gallery"
-        android:id="@+id/btnGallery"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Save to on Specific Path"
-        android:id="@+id/btnPath"/>
 
 </LinearLayout>
