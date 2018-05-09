@@ -114,6 +114,7 @@ public class MainActivity extends AppCompatActivity {
                 /* Save Image to SD Card as PNG imgae */
                 outputStream = new FileOutputStream(image);
 
+                /* Compress into PNG format with image quality 100% */
                 bitmap.compress(Bitmap.CompressFormat.PNG,100,outputStream);
 
                 outputStream.flush();
